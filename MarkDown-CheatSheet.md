@@ -105,7 +105,7 @@ You can create tables by assembling a list of words and dividing them with hyphe
 
 **Note**: This isn't a universal feature
 
-## 10. Horizontal Rule
+## 10. How to Create a Horizontal Rule
 
 ```
 ---
@@ -119,3 +119,20 @@ OR
 
 ---
 ***
+
+
+## 11. How to Create a Table
+```
+First Header | Second Header
+------------ | -------------
+Content cell 1 | Content cell 2
+Content column 1 | Content column 2
+```
+First Header | Second Header
+------------ | -------------
+Content cell 1 | Content cell 2
+Content column 1 | Content column 2
+
+
+
+
