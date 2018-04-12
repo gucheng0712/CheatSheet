@@ -46,8 +46,22 @@ git config --global user.email "[email address]"
 >This is the version of something that is hosted on a server, most likely GitHub. It can be connected to local clones so that changes can be synced.
 
 ## The Following Table has some common commands for GitHub
-|Command | Function|
-|First Header | Second Header|
+
+|Command  | Function|
 |------------ | -------------|
-|Content cell 1 | Content cell 2|
-|Content column 1 | Content column 2|
+|`git init` | Initialize an existing directory as a git repository|
+|`git clone [url]` | Clone an entire repository from the url|
+|`git status` | Modified files in working directory, staged for your next commit(stage).|
+|`git add [file]` | Add a file as it looks now to your next commit (stage). |
+|`git add .` | Add everything in this location to your next commit|
+|`git reset [file]` | Unstage a file while retaining the changes in working directory|
+|`git diff` | Difference of what is changed but not staged|
+|`git diff --staged` | Difference of what is staged but not yet commited|
+|`git commit -m "[descriptive message]"` | Commit your staged content |
+|`git branch` | List your branches. a `*` will appear next to the currently active branch|
+|`git branch [branch-name]` | Create a new branch at the current commit|
+|`git checkout` | Switch to another branch and check it out into your working directory|
+|`git merge [branch]` | Merge the specified branch’s history into the current one|
+|`git log` | Show all commits in the current branch’s history|
+|`git rm [file]` | Delete the file from project and stage the removal for commit __(be careful to use)__|
+|`git mv [file_from] [file_to]` | Move file to another location |
